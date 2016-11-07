@@ -1,0 +1,269 @@
+#top{
+    
+    background:#4d4f62 url("tesla-logo.png") no-repeat 0 0;
+    background-size: 95%;
+    background-position:40% 35%;
+    
+    
+    font-family: Avenir;
+    color: white;
+    
+    height: 985px;
+    padding: 50px;
+    margin: -10px;
+    
+    position: relative;
+}
+
+.floatleft {
+    
+    float: left;
+    
+}
+
+.logo {
+    
+    margin-left: 60px;
+    
+}
+
+.logo:hover {
+    
+    cursor: pointer;
+}
+
+.conteneur p:hover{
+    
+    color: white;
+    cursor: pointer;
+}
+
+.background p:hover {
+    
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.floatbox {
+    
+float: right;
+width: 100px;
+text-align: right;
+color: #97989b;
+    
+
+    
+}
+
+ul {
+    
+    margin-top: 230px;
+    list-style-position: inside;
+    width: 1px;
+
+}
+
+li {
+    
+    height: 30px;
+    font-size: 20px;
+}
+
+
+li:hover {
+    
+    list-style-type: circle;
+    font-size: 30px;
+}
+
+.image {
+    
+    position: absolute;
+    
+    top: 450px;
+    right: 0px;
+    width: 100%;
+}
+
+h1 {
+    
+    color: white;
+}
+
+a {
+    
+    background: none;
+    border: solid white 2px;
+    
+    padding: 5px 20px;
+    
+    text-decoration: none;
+}
+
+a:hover {
+    
+    cursor: pointer;
+}
+
+a:visited {
+    
+    color: white;
+}
+
+.absolute {
+    
+    position: absolute;
+    
+    top: 150px;
+    right: 130px;
+}
+
+.feature {
+    
+    position: absolute;
+    
+    bottom: 240px;
+} 
+
+.feature2 {
+    
+    position: absolute;
+    
+    bottom: 20px;
+} 
+
+.feature3 {
+    
+    position: absolute;
+    
+    bottom: 100px;
+}
+
+.number {
+    
+    font-size: 100px;
+    font-weight: Thin 100;
+}
+body {
+    margin: 0 auto;
+}
+#mid {
+    
+    font-family: Avenir;
+    
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    width: 101%;
+    
+    
+}
+
+#testDriveLink {
+    color: white;
+}
+
+.test {
+    height: 400px;
+    width: 50%;
+    background: #62647d url("exterior.jpg") no-repeat 0 0;
+    background-position: center;
+    background-size: 100% 100%;
+    float: right;
+    padding: 0;
+}
+
+.test2 {
+    
+    height: 400px;
+    width: 50%;
+    background-color: #62647d;
+    float: right;
+    
+    text-align: right;
+    color: #a1a1ab;
+}
+
+.test3 {
+    
+    height: 400px;
+    width: 50%;
+    background-color: #30313e;
+    float: right;
+    
+    text-align: left;
+    color: #a1a1ab;
+}
+
+.test4 {
+    
+    height: 400px;
+    width: 50%;
+    background: #30313e url("interior.png") no-repeat 0 0;
+    background-position: center;
+    background-size: 100% 100%;
+    float: right;
+    padding: 0;
+}
+
+.rotateimg270 {
+  -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+    }
+
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+    transform: rotate(90deg);}
+
+#contact {
+    
+        
+    font-family: Avenir;
+    
+    height: 100px;
+    padding: -200px;
+    width: 101%;
+    margin-top: 250px;
+    margin-bottom: -250px;
+    
+    color: #62647d;
+    
+    text-align: center;
+    
+    
+}
+
+.joinus {
+    background-color: #23242e;
+    color: white;
+    border:none;
+    
+    padding: 5px 40px;
+    border-radius: 5px;
+    font-size: 20px;
+
+    
+}
+
+#footer {
+    
+    background-color: #62647d;
+            
+    font-family: Avenir;
+    
+    height: 50px;
+    margin-top: 250px;
+    padding: 0;
+    width: 101%;
+    
+    color: #62647d;
+    
+    position: relative;
+}
